@@ -31,9 +31,10 @@ namespace onPar
                 Console.WriteLine($"The total is now {total}.");
                 Console.WriteLine("Would you like to add another number?");
                 response = Console.ReadLine();
-
+                Console.Clear();
             }
             while (response.ToLower() == "yes");
+            
             if (response.ToLower() == "no")
             {
                 Console.WriteLine("GOODBYE...");
