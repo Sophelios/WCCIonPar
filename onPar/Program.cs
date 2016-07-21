@@ -17,7 +17,7 @@ namespace onPar
             {
 
                 Console.WriteLine($"Current Total: {total}.");
-                Console.WriteLine("Enter a number to add to the total.");
+                Console.WriteLine("Enter a number to add to the total. A whole number, if you will.");
                 response = Console.ReadLine();
                 int intResponse = int.Parse(response);
                 numList.Add(intResponse);
